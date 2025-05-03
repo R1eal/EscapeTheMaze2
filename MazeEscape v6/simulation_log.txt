@@ -1,0 +1,148 @@
+Simulation started
+Initial maze state:
+E E T E E T 
+W E E P W E 
+W E P E W W 
+T W A0 E A1 E 
+E E E G W T 
+E E P E T E 
+
+Turn 1: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [3,2]
+Agent 0 action: UP
+Action result: Agent 0 moved to (2,2)
+Maze after Agent 0's turn:
+E E T E E T 
+W E E P W E 
+W E A0 E W W 
+T W E E A1 E 
+E E E G W T 
+E E P E T E 
+
+Turn 2: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [3,4]
+Agent 1 action: LEFT
+Action result: Agent 1 moved to (3,3)
+Maze after Agent 1's turn:
+E E T E E T 
+W E E P W E 
+W E A0 E W W 
+T W E A1 E E 
+E E E G W T 
+E E P E T E 
+
+Turn 3: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [3,2]
+Agent 0 action: UP
+Action result: Agent 0 moved to (1,2)
+Maze after Agent 0's turn:
+E E T E E T 
+W E A0 P W E 
+W E E E W W 
+T W E A1 E E 
+E E E G W T 
+E E P E T E 
+
+Turn 4: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [3,4]
+Agent 1 action: UP
+Action result: Agent 1 moved to (2,3)
+Maze after Agent 1's turn:
+E E T E E T 
+W E A0 P W E 
+W E E A1 W W 
+T W E E E E 
+E E E G W T 
+E E P E T E 
+
+Turn 5: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [3,2]
+Agent 0 action: DOWN
+Action result: Agent 0 moved to (2,2)
+Maze after Agent 0's turn:
+E E T E E T 
+W E E P W E 
+W E A0 A1 W W 
+T W E E E E 
+E E E G W T 
+E E P E T E 
+
+Turn 6: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [3,4]
+Agent 1 action: DOWN
+Action result: Agent 1 moved to (3,3)
+Maze after Agent 1's turn:
+E E T E E T 
+W E E P W E 
+W E A0 E W W 
+T W E A1 E E 
+E E E G W T 
+E E P E T E 
+
+Turn 7: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [3,2]
+Agent 0 action: DOWN
+Action result: Agent 0 moved to (3,2)
+Maze after Agent 0's turn:
+E E T E E T 
+W E E P W E 
+W E E E W W 
+T W A0 A1 E E 
+E E E G W T 
+E E P E T E 
+
+Turn 8: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [3,4]
+Agent 1 action: DOWN
+Action result: Agent 1 moved to (4,3)
+Agent 1 reached the goal!
+Maze after Agent 1's turn:
+E E T E E T 
+W E E P W E 
+W E E E W W 
+T W A0 E E E 
+E E E G W T 
+E E P E T E 
+
+Turn 9: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [3,2]
+Agent 0 action: UP
+Action result: Agent 0 moved to (2,2)
+Maze after Agent 0's turn:
+E E T E E T 
+W E E P W E 
+W E A0 E W W 
+T W E E E E 
+E E E G W T 
+E E P E T E 
+
+No active agents available. Ending simulation.
+Final maze state:
+E E T E E T 
+W E E P W E 
+W E A0 E W W 
+T W E E E E 
+E E E G W T 
+E E P E T E 
+
+Goal reach order: [1]
+
+=== Simulation Summary ===
+Total number of turns executed: 9
+Average number of moves per agent: 0.00
+Winner (first to reach goal): Agent 1
+
+Per-Agent Statistics:
+Agent | Moves | Backtracks | Traps Triggered | Power-Ups Used | Max Stack Depth
+------|-------|------------|-----------------|----------------|-----------------
+Agent 0 | 0 | 0 | 0 | 0 | 1
+Agent 1 | 0 | 0 | 0 | 0 | 1
